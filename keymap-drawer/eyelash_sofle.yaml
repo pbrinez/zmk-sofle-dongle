@@ -17,18 +17,18 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
+  - {t: E, h: AltGr+E}
   - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
-  - U
-  - I
-  - O
+  - {t: U, h: AltGr+U}
+  - {t: I, h: AltGr+I}
+  - {t: O, h: AltGr+O}
   - P
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-caps$$
-  - A
+  - {t: A, h: AltGr+A}
   - S
   - D
   - F
@@ -47,7 +47,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - N
+  - {t: N, h: AltGr+N}
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
