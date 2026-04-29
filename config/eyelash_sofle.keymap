@@ -80,11 +80,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1                   &kp N2        &kp N3                   &kp N4  &kp N5       &kp UP_ARROW     &kp N6                   &kp N7                   &kp N8                   &kp N9                   &kp N0      &kp MINUS
-&kp TAB     &kp Q                    &kp W         &tilde_behavior RA(E) E  &kp R   &kp T        &kp DOWN_ARROW   &kp Y                    &tilde_behavior RA(U) U  &tilde_behavior RA(I) I  &tilde_behavior RA(O) O  &kp P       &kp BACKSPACE
-&kp CAPS    &tilde_behavior RA(A) A  &kp S         &kp D                    &kp F   &kp G        &kp LEFT_ARROW   &kp H                    &kp J                    &kp K                    &kp L                    &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z                    &kp X         &kp C                    &kp V   &kp B        &kp RIGHT_ARROW  &tilde_behavior RA(N) N  &kp M                    &kp COMMA                &kp DOT                  &kp SLASH   &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LCTRL                &kp LEFT_GUI  &kp LEFT_ALT             &mo 1   &kp SPACE    &kp ENTER        &kp ENTER                &mo 2                    &kp RIGHT_ALT            &kp RIGHT_SHIFT          &kp DELETE
+&kp ESC     &kp N1                   &kp N2        &kp N3                   &kp N4  &kp N5       &kp UP_ARROW     &kp N6                   &kp N7                   &kp N8                   &kp N9                   &kp N0     &kp MINUS
+&kp TAB     &kp Q                    &kp W         &tilde_behavior RA(E) E  &kp R   &kp T        &kp DOWN_ARROW   &kp Y                    &tilde_behavior RA(U) U  &tilde_behavior RA(I) I  &tilde_behavior RA(O) O  &kp P      &kp BACKSPACE
+&kp CAPS    &tilde_behavior RA(A) A  &kp S         &kp D                    &kp F   &kp G        &kp LEFT_ARROW   &kp H                    &kp J                    &kp K                    &kp L                    &kp SEMI   &kp APOS
+&kp LSHFT   &kp Z                    &kp X         &kp C                    &kp V   &kp B        &kp RIGHT_ARROW  &tilde_behavior RA(N) N  &kp M                    &kp COMMA                &kp DOT                  &kp SLASH  &kp RIGHT_SHIFT
+&kp C_MUTE  &kp LCTRL                &kp LEFT_GUI  &kp LEFT_ALT             &mo 1   &kp SPACE    &kp ENTER        &kp ENTER                &mo 2                    &kp RIGHT_ALT            &kp DELETE               &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
